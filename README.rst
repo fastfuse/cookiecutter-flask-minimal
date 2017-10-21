@@ -1,4 +1,4 @@
-A Minimal Flask Project skeleton
+### A Minimal Flask Project skeleton
 
 Includes:
 * Flask
@@ -7,11 +7,15 @@ Includes:
 * Font Awesome
 
 Usage:
-    $ pip install cookiecutter
-    $ cookiecutter github
+```sh
+$ pip install cookiecutter
+$ cookiecutter github
+```
 
 After that:
-    $ cd <your newly created project>
-    $ pip install -r requirements.txt
-    $ export APP_SETTINGS="config.DevelopmentConfig"
-    $ python manage.py runserver
+```sh
+$ cd <your newly created project>
+$ pip install -r requirements.txt
+$ export APP_SETTINGS="config.DevelopmentConfig"
+$ python manage.py runserver
+```
