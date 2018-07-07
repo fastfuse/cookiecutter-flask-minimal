@@ -25,3 +25,4 @@ $ docker run -it -p 5000:5000 <image-name>
 [Flask]: http://flask.pocoo.org/
 [Docker]: https://www.docker.com/
 [Boostwatch]: https://bootswatch.com/
+[Flatly]: https://bootswatch.com/flatly/
