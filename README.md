@@ -4,7 +4,6 @@
 - [Flask]
 - [Docker]
 - [Boostwatch] [Flatly]
-- [Font Awesome]
 
 #### Usage:
 ```sh
@@ -26,5 +25,3 @@ $ docker run -it -p 5000:5000 <image-name>
 [Flask]: http://flask.pocoo.org/
 [Docker]: https://www.docker.com/
 [Boostwatch]: https://bootswatch.com/
-[Flatly]: https://bootswatch.com/flatly/
-[Font Awesome]: http://fontawesome.io/
