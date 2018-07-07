@@ -3,7 +3,7 @@
 #### Includes:
 - [Flask]
 - [Docker]
-- [Boostwatch] [Flatly] (Bootstrap theme)
+- [Boostwatch] [Flatly]
 - [Font Awesome]
 
 #### Usage:
@@ -18,9 +18,9 @@ This info will be used in your new project.
 After that:
 
 ```sh
-    $ cd <your-newly-created-project>
-    $ docker build . -t <image-name>
-    $ docker run -it -p 5000:5000 <image-name>
+$ cd <your-newly-created-project>
+$ docker build . -t <image-name>
+$ docker run -it -p 5000:5000 <image-name>
 ```
 
 [Flask]: http://flask.pocoo.org/
