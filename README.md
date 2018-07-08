@@ -39,3 +39,4 @@ Open your browser and check [127.0.0.1:5000]
 [Docker]: https://www.docker.com/
 [Boostwatch]: https://bootswatch.com/
 [Flatly]: https://bootswatch.com/flatly/
+[127.0.0.1:5000]: http://127.0.0.1:5000
