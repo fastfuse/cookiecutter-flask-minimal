@@ -7,10 +7,11 @@ WORKDIR /app
 COPY . /app
 RUN pip install --no-cache-dir -r requirements.txt
 
-# environment variales
-ENV FLASK_APP="app/__init__.py"
-ENV FLASK_DEBUG=1
+# environment variables
 ENV APP_SETTINGS="config.DevelopmentConfig"
+ENV FLASK_APP="app/__init__.py"
+# do not set it for production
+ENV FLASK_ENV="development"
 
 # expose port
 EXPOSE 5000

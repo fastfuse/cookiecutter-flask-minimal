@@ -2,7 +2,6 @@ import os
 
 
 class Config(object):
-    DEBUG = False
     CSRF_ENABLED = True
     SECRET_KEY = os.environ.get('SECRET_KEY',
                                 'your-secret-key')
@@ -14,16 +13,16 @@ class Config(object):
 
 
 class DevelopmentConfig(Config):
-    DEBUG = True
+    pass
 
 
 class TestConfig(Config):
-    DEBUG = True
+    pass
 
 
 class StagingConfig(Config):
-    DEBUG = False
+    pass
 
 
 class ProductionConfig(Config):
-    DEBUG = False
+    pass
