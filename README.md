@@ -6,31 +6,23 @@
 - [Boostwatch] [Flatly]
 
 #### Usage:
-```sh
-$ pip install cookiecutter
-$ cookiecutter https://github.com/fastfuse/cookiecutter-flask-minimal.git
-```
-
-You will be asked about basic info (app name, description).
-This info will be used in your new project.
+Copy flask-min dir and rename it
 
 Create and activate virtual environment
 
 After that:
 
 ```sh
-$ cd <your-newly-created-project>
+$ cd <your-project-dir>
 $ export APP_SETTINGS=config.DevelopmentConfig
 $ export FLASK_APP=app/__init__.py
 $ export FLASK_ENV=development
-$ flask run
-```
 
-Or using Docker:
-```sh
-$ cd <your-newly-created-project>
-$ docker build . -t <image-name>
-$ docker run -it -p 5000:5000 <image-name>
+$ flask db init
+$ flask db migrate -m "<migrate message>"
+$ flask db upgrade
+
+$ flask run
 ```
 
 Open your browser and check [127.0.0.1:5000]
